@@ -35,4 +35,7 @@ pipeline {
       }
 
     }
+    environment {
+      registry = 'kkkhanenko/cicd-pipeline'
+    }
   }
