@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Application build') {
+      steps {
+        sh 'sh \'./scripts/build.sh\''
+      }
+    }
+
   }
 }
